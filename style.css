@@ -10,6 +10,7 @@ background-color: black;
 }
 
 .main{
+  padding: 15px;
   margin: auto;
 
   border-style: solid;
