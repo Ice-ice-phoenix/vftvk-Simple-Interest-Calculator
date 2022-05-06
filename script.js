@@ -15,8 +15,8 @@ function compute()
     
     var result = p*y*r/100;
     var out= document.getElementById("result");
-    out.innerHTML="if you depost"+" "+p+"<br>" +"at an interest rate of"+" "+ 
-    r+"<br>"+"you will recieve the amonnt"+" "+result+"<br>"+ " in the year" +" " +y;
+    out.innerHTML="if you depost"+" " +"<span class='var'>" +p+ "</span>"+ "<br>" +"at an interest rate of"+" "+ 
+    r+  "<br>"+"you will recieve the amonnt"+" "+result+"<br>"+ " in the year" +" " +y;
     console.log("i am running",result);
     
 }
