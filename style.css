@@ -8,6 +8,7 @@ h1{color:grey;}
 }
 input{
   content-align:left;
+  transition: width 0.4s ease-in-out;
   text-align:left;
 }
 .body{
