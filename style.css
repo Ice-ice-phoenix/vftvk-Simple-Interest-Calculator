@@ -21,6 +21,7 @@ background-color: black;
 
 .main{
   padding: 15px;
+  resize:both;
  
   margin: auto;
   Justify-content:left;
