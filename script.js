@@ -2,6 +2,8 @@
 var s= document.getElementById("ll");
  var r = document.getElementById("rate")
     r.addEventListener("change",ff);
+var f= document.getElementById("principal");
+
     function ff(){
          var r = document.getElementById("rate").value;
          
@@ -12,7 +14,12 @@ function compute()
  var   p = document.getElementById("principal").value;
     var y =document.getElementById("years").value;
     var r = document.getElementById("rate").value;
-    
+    if (p == 0){
+ alert("enter a positive number");
+     f.focus();
+     
+ 
+}
     var result = p*y*r/100;
     var out= document.getElementById("result");
     out.innerHTML="if you depost"+" " +"<span class='var'>" +p+ "</span>"+ "<br>" +"at an interest rate of"+" "+ 
