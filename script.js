@@ -22,7 +22,7 @@ function compute()
 }
     var result = p*y*r/100;
     var out= document.getElementById("result");
-    out.innerHTML="if you depost"+" " +"<span class='var'>" +p+ "</span>"+ "<br>" +"at an interest rate of"+" "+ 
+    out.innerHTML="if you deposit"+" " +"<span class='var'>" +p+ "</span>"+ "<br>" +"at an interest rate of"+" "+ 
     "<span class='var'>"+ r+ "</span>"+  "<br>"+"you will recieve the amonnt"+" " 
      +"<span class='var'>"+result+"</span>"+"<br>"+ " in the year" +" "+"<span class='var'>" +y+"</span>";
     console.log("i am running",result);
